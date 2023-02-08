@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@700&family=Raleway:wght@400;800&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+body {
+  font-family: "Exo", sans-serif;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  background-color: hsl(218deg, 23%, 16%);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 220px;
+  padding: 10px;
+  background-color: hsl(217deg, 19%, 24%);
+  border-radius: 12px;
+}
+.content .advice-title {
+  margin-top: 10px;
+  font-size: 12px;
+  color: hsl(150deg, 100%, 66%);
+}
+.content #quotes-advice {
+  margin-top: 50px;
+  font-size: 16px;
+  text-align: center;
+}
+.content .division-line {
+  margin-top: 40px;
+}
+.content .division-line img {
+  width: 100%;
+}
+.content .icon-dice {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 220px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: hsl(150deg, 100%, 66%);
+  cursor: pointer;
+}
+.content .icon-dice:hover {
+  box-shadow: -1px -2px 40px hsl(150deg, 100%, 66%);
+}
+.content .icon-dice img {
+  width: 20px;
+  height: 20px;
+}
+
+@media (min-width: 600px) {
+  .content {
+    width: 520px;
+    height: 320px;
+    padding: 10px;
+  }
+  .content .advice-title {
+    font-size: 14px;
+  }
+  .content #quotes-advice {
+    margin-top: 60px;
+    font-size: 24px;
+    text-align: center;
+  }
+  .content .division-line {
+    margin-top: 90px;
+  }
+  .content .icon-dice {
+    margin-top: 320px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+  }
+}
+@media (min-width: 1800px) {
+  .content {
+    width: 850px;
+    height: 510px;
+    padding: 5px;
+  }
+  .content .advice-title {
+    margin-top: -2px;
+    font-size: 25px;
+  }
+  .content #quotes-advice {
+    margin-top: 40px;
+    font-size: 32px;
+    text-align: center;
+  }
+  .content .division-line {
+    margin-bottom: -110px;
+  }
+  .content .icon-dice {
+    margin-top: 510px;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+  }
+  .content .icon-dice img {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

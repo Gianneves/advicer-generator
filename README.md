@@ -1,0 +1,1 @@
+Project to fix my knowledge in javascript consuming API, as well as the use of preprocessors like Scss.
